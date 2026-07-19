@@ -1,0 +1,76 @@
+# ─── Build output ───
+build/
+build2/
+build_md/
+build_test/
+package/
+dist/
+*.user
+
+# ─── CEF - track only essential, ignore binaries and build artifacts ───
+thirdparty/cef/cppdocs/
+thirdparty/cef/Debug/
+thirdparty/cef/Release/
+thirdparty/cef/Resources/
+thirdparty/cef/build_md/
+thirdparty/cef/build_test/
+thirdparty/cef/cef_windows64.tar.bz2
+thirdparty/cef/cef_paths.gypi
+thirdparty/cef/cef_paths2.gypi
+thirdparty/cef/cmake/
+
+# ─── OS / IDE ───
+*.local
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vs/
+
+# ─── Binary / runtime ───
+*.dll
+*.exe
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.obj
+*.recipe
+*.tlog
+*.lastbuildstate
+*.res
+*.aps
+*.rsrc
+*.sbh
+*.sbr
+*.cdf
+*.cache
+*.ipch
+
+# ─── CEF specific ───
+*.pak
+*.dat
+*.bin
+
+# ─── Other build artifacts ───
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+install_manifest.txt
+*.log
+app.config
+
+# ─── Old tarballs / releases ───
+ShadowLauncher_v1.0.5/
+Packet.dll
+wpdpack.dll
+
+# ─── QML cache (generated) ───
+src/qmlcache/
+
+# ─── Deployment leftovers ───
+easytier-cli.exe
+easytier-core.exe
+wintun.dll
+installer.log
