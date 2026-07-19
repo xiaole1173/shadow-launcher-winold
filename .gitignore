@@ -74,3 +74,6 @@ easytier-cli.exe
 easytier-core.exe
 wintun.dll
 installer.log
+
+# Build artifacts
+build_log.txt
